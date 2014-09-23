@@ -429,6 +429,10 @@ body {
     z-index: 2;
 }
 
+.img-tall {
+    height: 540px;
+}
+
 .portfolio-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
@@ -443,6 +447,7 @@ body {
 .portfolio-modal .modal-content h2 {
     margin: 0;
     font-size: 3em;
+    color: #000;
 }
 
 .portfolio-modal .modal-content img {

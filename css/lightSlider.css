@@ -121,16 +121,20 @@
 /* End of Gallery*/
 
 /* slider actions */
+.csAction {
+
+}
 .csAction > a {
-	width: 32px;
+	width: 64px;
 	display: block;
-	top: 50%;
-	height: 32px;
-	background-image: url('../img/controls.png');
+	/*top: 50%;*/
+	height: 540px;
+	/*background-image: url('../img/controls.png');*/
+	background-color: #000;
 	cursor: pointer;
 	position: absolute;
 	z-index: 99;
-	margin-top: -16px;
+	/*margin-top: -16px;*/
 	opacity: 0.5;
 	-webkit-transition: opacity 0.35s linear 0s;
 	transition: opacity 0.35s linear 0s;
